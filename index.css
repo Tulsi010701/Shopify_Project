@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root {
+ --brown: #833517;
+}
+
+body {
+ background: #B43F11;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  text-decoration: none;
+  transition: .2s linear;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: var(--brown);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #ffffff;
+}
+
+.header .logo i {
+    color: #222;
+    padding-right: .5rem;
+}
+
+
+
+.header .navbar a {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 1rem;
+}
+
+
+
+.header .navbar a:hover {
+    color: #222;
+}
+
+
+
+.header .icons a {
+    font-size: 20px;
+    margin-left: 1.7rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+.header .icons a:hover {
+    color: #222;
+}
+
+
+#menu-btn {
+    display: none;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    padding: 1.2rem 0;
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.title span {
+    color: #222;
+    padding-left: .7rem;
+}
+
+.title a {
+    margin-left: auto;
+    color: #222;
+    font-size: 1.5rem;
+}
+
+.title a:hover {
+    color: #fff;
+}
+
+
+/* .box-container{
+    margin: auto !important;
+} */
+
+.col{
+    margin-top: 15px !important;
+}
+
+.btn{
+    background-color: #833517 !important;
+    color: #ffffff !important;
+}
+
+/* .products .box-container .box {
+
+    position: relative;
+
+    background: #f3f3f3;
+
+    text-align: center;
+
+    overflow: hidden;
+
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+
+    border: 0.1rem solid rgba(0, 0, 0, 0.7);
+
+}
+
+
+
+.products .box-container .box:hover .icons {
+
+    top: 0;
+
+}
+
+
+
+.products .box-container .box .icons {
+
+    position: absolute;
+
+    top: -105%;
+
+    left: 0;
+
+    height: 30rem;
+
+    width: 100%;
+
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: rgba(243, 243, 243, 0.8);
+
+    gap: 1rem;
+
+}
+
+
+
+.products .box-container .box .icons a {
+
+    font-size: 2rem;
+
+    height: 5rem;
+
+    width: 5rem;
+
+    line-height: 5rem;
+
+    background: #fff;
+
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+
+    color: #666;
+
+}
+
+
+
+.products .box-container .box .icons a:hover {
+
+    background: var(--brown);
+
+    color: #fff;
+
+} */
+
+
+
+/* .products .box-container .box .img {
+
+    height: 15rem;
+
+    width: 27rem;
+
+    overflow: hidden;
+
+}
+
+
+
+.products .box-container .box .img img {
+
+    height: 100%;
+
+    width: 100%;
+
+    object-fit: cover;
+
+}
+
+
+
+.products .box-container .box .content {
+
+    padding: 1.5rem;
+
+}
+
+
+
+.products .box-container .box .content h3 {
+
+    font-size: 2rem;
+
+    color: #222;
+
+}
+
+
+
+.products .box-container .box .content .price {
+
+    font-size: 2rem;
+
+    color: #222;
+
+    padding: 1rem 0;
+
+}
+
+
+
+.products .box-container .box .content .stars i {
+
+    font-size: 1.7rem;
+
+    color: var(--brown);
+
+} */
+
+
+.footer{
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+
+.footer-1{
+    display: flex;
+}
+
+.logo-img{
+    width: 25%;
+}
+
+.logo-img img{
+    width: 100%;
+}
+
+.column-1 p{
+    padding-top: 10px;
+}
+
+.column-2 ul, .column-3 ul{
+    list-style: none;
+}
+
+.column-2 li, .column-3 li{
+    padding-top: 10px;
+}
+
+.column-4 h5{
+    padding-top: 10px;
+}
+
+.column-4 p{
+    padding-left: 10px;
+}
+
+#div-icon{
+    display: flex;
+    padding-top: 10px;
+}
+
+#div-icon i{
+    color: #f58634;
+    font-size: 25px;
+}
+
+.column-4 hr{
+    margin: 0;
+}
+.column-4 input{
+    border: none;
+}
+
+.last-div{
+    background-color: #833517;
+    color: #ffffff;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 15px;
+}
